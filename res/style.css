@@ -47,7 +47,6 @@ section {
     background-color: #4267B2;
     position: sticky; top: 0;
     color: #ffffff;
-    border-radius: 5px;
 }
 .nav {
     margin-top: 5px;
@@ -66,27 +65,111 @@ section {
     background-color: #4e6eaf;
 }
 
-.addpost-div {
+.add-post-div {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
+    .add-post-div > label {
+        font-size: 24px; 
+        padding-right: 20px;
+    }
 
-.addpost-button {
+
+.blue-button {
     padding: 10px;
     font-size: large;
     background-color: #4267B2;
     color: white;
-    height: 5%;
+    height: 3em;
+    cursor:pointer;
 }
 
-.selectfile-button {
+#select-file-button {
     padding: 10px;
     font-size: large;
     background-color: gray;
     color: white;
-    height: 5%;
+    height: 3em;
+    cursor:pointer;
 }
 
+#post-body {
+    resize: none; 
+    vertical-align: top; 
+    margin: 0 auto; 
+    width: 70%; 
+}
+
+.login-flex {
+    display: flexbox;
+}
+
+.field{
+    width: 10em;
+    height: 2.8em;
+}
+
+.text-fields{
+    padding: 0.3em;
+}
+
+#login-button{
+    width:5em;
+    height: 1.8em;
+    padding: 0;
+    margin-bottom: 1.3em;
+    margin-top:0.8em;
+    cursor:pointer;
+}
+
+.login-text{
+    margin:0;
+}
+
+.login-links{
+    color: #4EBFE7;
+}
+
+#forget-password{
+    padding-bottom: 2em;
+}
+
+h4::first-letter{
+    text-transform: capitalize;
+}
+
+a + p{
+    text-transform: lowercase;
+}
+
+h4 ~ div{
+    padding:5px;
+}
+
+@media (max-width: 950px) {
+    #post-body-label {
+        padding-right: 0;
+        padding-bottom: 1em;
+    }
+    #select-file-label {
+        padding-right: 0;
+        padding-bottom: 1em;
+    }
+    .add-post-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 799px) {
+    .logo {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+}
 
 @media (min-width: 800px) {
     .header,

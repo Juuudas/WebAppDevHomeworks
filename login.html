@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="/res/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Login</title>
 
 </head>
 <body>
@@ -18,10 +18,32 @@
     <a class="logo" href="login.html"><img src="/res/images/me.png" width="50" height="50" alt="My picture"></a>
 </header>
 
-<div class="flex-container">
+<div class="flex-container" style="text-align: center">
+  <div class="login-flex">
+    <h4>welcome to PostIt</h4>
+    <div>
+      <a class="login-links" href="#">Create an account</a>
+      <p class="login-text">OR</p>
+      <p class="login-text">Please log in</p>
+    </div>
+    <form action="index.html">
+      <div class="text-fields">
+        <input  class="field" type="text" name="email" placeholder="Email"required>
+      </div>
+      <div class="text-fields">
+        <input class="field" type="text" name="password" placeholder="Password"required>
+      </div>
+      <div> 
+        <button class="blue-button" id="login-button" type="submit">Log in</button>
+      </div>
+    </form>
+    <div id="forget-password">  
+      <a class="login-links"  href="#">Forget password</a>
+    </div>
+  </div>
 
-<footer class="footer">
-  <p>© Tauri, Egert, Hugo</p>
-</footer>
+  </div>
+</div>
+
 </body>
 </html>
