@@ -66,6 +66,27 @@ section {
     background-color: #4e6eaf;
 }
 
+.addpost-div {
+    margin-bottom: 20px;
+}
+
+.addpost-button {
+    padding: 10px;
+    font-size: large;
+    background-color: #4267B2;
+    color: white;
+    height: 5%;
+}
+
+.selectfile-button {
+    padding: 10px;
+    font-size: large;
+    background-color: gray;
+    color: white;
+    height: 5%;
+}
+
+
 @media (min-width: 800px) {
     .header,
     .nav {

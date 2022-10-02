@@ -1,14 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.6">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/res/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="addPost.html">Add Post</a></li>
+      </ul>
+
+      <a class="logo" href="login.html"><img src="/res/images/me.png" width="50" height="50" alt="My picture"></a>
+    </header>
+
+    <div class="flex-container" style="text-align: left">
+      <div>
+
+        <div class="addpost-div">
+          <label for="postbody" style="font-size: 24px; padding-right: 20px;">Post body</label>
+          <textarea id="postbody" style="resize: none; vertical-align: top; margin: 0 auto; width: 70%; margin-bottom: 30px;" name="Text area" rows="4" cols="50">
+            </textarea>
+        </div>
+
+        <div class="addpost-div">
+          <label for="loadFile" style="font-size: 24px; padding-right: 20px;">Select file</label>
+          <input type="file" style="display: none;" id="file" name="file"/>
+          <input class="selectfile-button" type="button" id="loadFile" value="Choose file" onclick="document.getElementById('file').click();" />   
+        </div>
+
+        <div class="addpost-div" style="text-align: center">
+          <form action="index.html">
+            <input class="addpost-button" type="submit" id="createPost" value="Create post"/>   
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
 </html>
