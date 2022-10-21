@@ -1,0 +1,81 @@
+[
+    {
+      "author": "Tauri",
+      "creation": "10.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "Tere",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Egert",
+      "creation": "11.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "Pärast",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Hugo",
+      "creation": "12.10.2022",
+      "picture": "res/images/tartu.jpg",
+      "caption": "Vaatan",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/tartu.jpg",
+      "caption": "Mida",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/vargad.jpg",
+      "caption": "Siia",
+      "profilepic": "res/images/me.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/vargad.jpg",
+      "caption": "Kirjutada",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "create date": "13.10.2022",
+      "picture": "res/images/tartu.jpg",
+      "caption": "Idk",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "Lol",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "xd",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "lmao",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    }
+  ]
