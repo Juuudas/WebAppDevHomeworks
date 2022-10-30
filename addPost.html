@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/res/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript.js"></script>
     <title>Add post</title>
   </head>
 
-  <body>
+  <body onload="dropdownmenu()">
     <header class="header">
       <ul class="nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="addPost.html">Add Post</a></li>
+          <li><a href="login.html">Log In</a></li>
       </ul>
-
-      <a class="logo" href="login.html"><img src="/res/images/me.png" width="50" height="50" alt="My picture"></a>
-    </header>
+      <div class="dropdown">
+        <a class="logo"><img src="/res/images/me.png" width="50" height="50" alt="My picture"></a>
+        <div class="dropdown-content">
+          <p>John Doe</p>
+          <p>john.doe@ut.ee</p>
+          <p>logout</p>
+  
+        </div>
+      </div>
+  </header>
 
     <div class="flex-container" id=add-post-container style="text-align: left">
       <div>

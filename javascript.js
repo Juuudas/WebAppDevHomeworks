@@ -1,7 +1,6 @@
-window.onload = function() {
 
-
-    fetch("https://api.npoint.io/0cfe27a7c5f30dbbf3c1")
+function posts(){
+    fetch("https://api.npoint.io/ae6c6640fb3e1175df20")
         .then((response) => response.json())
         .then(posts => {
             
@@ -40,4 +39,19 @@ window.onload = function() {
             
 
         })
+    }
+
+function dropdownmenu(){
+    const dropdown = document.getElementsByClassName("logo");
+    const content = document.getElementsByClassName("dropdown-content");
+    var isdropdown = false;
+    dropdown[0].onclick = function(){
+        if (isdropdown){
+            content[0].style.display = "none";
+            isdropdown = false
+        }else{
+            content[0].style.display = "block";
+            isdropdown = true;
+        }
+    }
 }

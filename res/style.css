@@ -33,7 +33,32 @@ a {
     margin-right: 20px;
     margin-top: 10px;
     font-size: 1.1em;
+    display: flex;
+    justify-content: right;
       }
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    width:200px;
+}
+
+.dropdown-content{
+    display:none;
+    background-color: #f1f1f1;
+    margin-top: 8px;
+    position: absolute;
+    width: 100%;
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content p{
+    display:block;
+    color:black;
+    padding:5px 5px 5px 20px;
+    text-decoration: none;
+}
 
 section {
     padding: 10px 15px;
@@ -146,7 +171,16 @@ h4 ~ div{
     padding:5px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .dropdown-content{
+        margin-top: 68px;
+    }
     #post-body-label {
         padding-right: 0;
         padding-bottom: 1em;
@@ -163,6 +197,15 @@ h4 ~ div{
 }
 
 @media (max-width: 799px) {
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .dropdown-content{
+        margin-top: 68px;
+    }
     .logo {
         display:flex;
         flex-direction: column;
