@@ -36,7 +36,8 @@
       "creation": "13.10.2022",
       "picture": "res/images/racecar.jpg",
       "caption": "Racecar",
-      "profilepic": "res/images/me.png"
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
     },
     {
       "author": "Tauri",

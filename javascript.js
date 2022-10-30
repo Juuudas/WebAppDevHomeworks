@@ -1,6 +1,6 @@
 
 function posts(){
-    fetch("https://api.npoint.io/ae6c6640fb3e1175df20")
+    fetch("https://api.npoint.io/1cf30b6b11d64944141d")
         .then((response) => response.json())
         .then(posts => {
             
