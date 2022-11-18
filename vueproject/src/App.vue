@@ -1,0 +1,281 @@
+<template>
+  <Header/>
+  <Posts/>
+  <Footer/>
+</template>
+
+<script>
+import Posts from './components/Posts.vue'
+import Header from './components/Header'
+import Footer from './components/Footer'
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Posts,
+    Footer
+  }
+}
+</script>
+
+<style>
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+body {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.p span{
+  text-align: right;
+}
+
+footer.p{
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.logo {
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: right;
+}
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+  width:200px;
+}
+
+.dropdown-content{
+  display:none;
+  background-color: #f1f1f1;
+  margin-top: 8px;
+  position: absolute;
+  width: 100%;
+  overflow:auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content p{
+  display:block;
+  color:black;
+  padding:5px 5px 5px 20px;
+  text-decoration: none;
+}
+
+section {
+  padding: 10px 15px;
+  margin: 10px;
+  display: block;
+
+}
+.header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: #4267B2;
+  position: sticky; top: 0;
+  color: #ffffff;
+}
+.nav {
+  margin-top: 5px;
+}
+
+.nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  font-size: .99em;
+}
+
+.nav a:hover {
+  background-color: #4e6eaf;
+}
+
+.add-post-div {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.add-post-div > label {
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+
+.blue-button {
+  padding: 10px;
+  font-size: large;
+  background-color: #4267B2;
+  color: white;
+  height: 3em;
+  cursor:pointer;
+}
+
+#select-file-button {
+  padding: 10px;
+  font-size: large;
+  background-color: gray;
+  color: white;
+  height: 3em;
+  cursor:pointer;
+}
+
+#post-body {
+  resize: none;
+  vertical-align: top;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.login-flex {
+  display: flexbox;
+}
+
+.field{
+  width: 10em;
+  height: 2.8em;
+}
+
+.text-fields{
+  padding: 0.3em;
+}
+
+#login-button{
+  width:5em;
+  height: 1.8em;
+  padding: 0;
+  margin-bottom: 1.3em;
+  margin-top:0.8em;
+  cursor:pointer;
+}
+
+.login-text{
+  margin:0;
+}
+
+.login-links{
+  color: #4EBFE7;
+}
+
+#forget-password{
+  padding-bottom: 2em;
+}
+
+h4::first-letter{
+  text-transform: capitalize;
+}
+
+a + p{
+  text-transform: lowercase;
+}
+
+h4 ~ div{
+  padding:5px;
+}
+
+@media (max-width: 999px) {
+  .dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .dropdown-content{
+    margin-top: 68px;
+  }
+  #post-body-label {
+    padding-right: 0;
+    padding-bottom: 1em;
+  }
+  #select-file-label {
+    padding-right: 0;
+    padding-bottom: 1em;
+  }
+  .add-post-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 799px) {
+  .dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .dropdown-content{
+    margin-top: 68px;
+  }
+  .logo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .header,
+  .nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.flex-container {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin:auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display:flexbox;
+  line-height: 25px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1.5%;
+}
+
+footer{
+  background-color: #4267B2;
+  color:rgb(255, 255, 255);
+  text-align: center;
+}
+.jspic{
+  width : 100%;
+}
+.profilepic{
+  margin-right: 10px;
+}
+</style>

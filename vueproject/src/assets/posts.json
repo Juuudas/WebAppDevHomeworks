@@ -1,0 +1,82 @@
+[
+    {
+      "author": "Tauri",
+      "creation": "10.10.2022",
+      "picture": "res/images/camera.jpg",
+      "caption": "Camera",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Egert",
+      "creation": "11.10.2022",
+      "picture": "res/images/dog.jpg",
+      "caption": "Golden retriever",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Hugo",
+      "creation": "12.10.2022",
+      "picture": "res/images/halloween.jpg",
+      "caption": "Halloween",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/cake.jpg",
+      "caption": "Piece of cake",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/racecar.jpg",
+      "caption": "Racecar",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/Deltabuilding.jpg",
+      "caption": "Delta building",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "create date": "13.10.2022",
+      "picture": "res/images/tartu.jpg",
+      "caption": "Tartu",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/basketballplayer.jpg",
+      "caption": "Basketball player",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/vargad.jpg",
+      "caption": "Thieves",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    },
+    {
+      "author": "Tauri",
+      "creation": "13.10.2022",
+      "picture": "res/images/sunflowers.jpg",
+      "caption": "Sunflowers",
+      "profilepic": "res/images/me.png",
+      "like": "res/images/like.png"
+    }
+  ]
